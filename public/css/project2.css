@@ -25,3 +25,37 @@ button { padding: 5px 7px }
 
 /* 새글쓰기, 본문보기 */
 .drgup { vertical-align: top }
+
+/* 회원정보 */
+.myinfo, .myinfo td { /*border: 1px solid black;*/ }
+.myinfo { border-collapse: collapse; width: 300px;
+        margin: 0 auto; }
+.myinfo td { padding: 7px }
+.myinfo td:first-child { font-weight: bold;
+        text-align: right }
+
+/* 게시판 목록 */
+.board { width: 700px; margin: 0 auto;
+        table-layout: fixed; border-collapse: collapse }
+.board td { text-align: center; padding: 7px }
+.board td:nth-child(2) { white-space: nowrap;
+        overflow: hidden; text-overflow: ellipsis; }
+.board th { padding:7px; background: lightgoldenrodyellow }
+.board tr:nth-child(odd) { background: #e4f7ba }
+.board tr:nth-child(even) { background: #cef279 }
+.alignrgt { text-align-last: right }
+.alignlft { text-align: left !important; }
+.board td:nth-child(2), .board th:nth-child(2) {
+        text-align: left }
+.pagenation { list-style: none; padding: 0;
+        margin: 0 auto; text-align: center }
+.pagenation li { display: inline-block; padding: 6px; }
+.cpage { font: bold 32px '맑은 고딕'; color: red; }
+.prev { color: #cccccc }
+select { padding: 3px }
+input[type="text"] { padding: 5px }
+
+
+
+
+
